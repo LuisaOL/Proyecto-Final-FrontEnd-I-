@@ -1,0 +1,673 @@
+/* Selector general de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    background-image: url("../imagenes/bg-tablet-pattern.svg");
+    background-size: 800px;
+    background-position: 120% -5%;
+    background-repeat: no-repeat;
+}
+
+/* Estilos para la cabecera de la página */
+header {
+    display: flex;
+    width: 1440px;
+    height: 180px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 150px 100px 150px;
+}
+
+#nav-header {
+    width: 500px;
+}
+
+#ul-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none; 
+}
+
+#ul-header a {
+    text-decoration: none;
+    color: #242E52;
+}
+
+#hamburguer {
+    color: #232851;
+} 
+/* Fin de los estilos de la cabecera*/
+
+/* Estilos para la sección 1 de la página principal */
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 1440px;
+    height: 500px;
+
+}
+
+.article1-section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#img-section1{
+    padding-left: 50px;
+    width: 600px;
+    height: 500px;
+}
+
+h1 {
+    color: #232C51;
+    font-size: 58px;
+    font-weight:700;
+    line-height: 60px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width:500px;
+    
+}
+
+/* Estilos para los párrafos oscuros de la página principal */
+
+.parrafo-oscuro-main {
+    color:#1D1E25;
+    width: 340px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+/* Fin de los estilos de la sección 1 */
+
+/* Estilos para la sección 2 de la página principal */
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1440px;
+    height: 700px;
+    padding: 100px 150px 100px 150px;
+}
+
+/* Estilos para todos los títulos h3 de la página */
+
+h3 {
+    color: #232851;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 45px;
+    padding-bottom: 20px;
+    width: 450px;
+}
+
+/* Estilos para todos los títulos h4 de la página */
+
+h4 {
+    color: #232851;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    position: relative;
+}
+
+/* Estilos para los pseudoelementos de sección 2 de la página principal */
+
+h4::before {
+    background-color: #f3603b;
+	border-radius: 30px;
+    color: #ffffff;
+    height: 20px;
+    left: -6.38vw;
+    padding: 10px 25px;
+	position: absolute;
+	width: 20px;
+}
+
+#h4-01::before {
+    content: "01";
+}
+
+#h4-02::before {
+    content: "02";
+}
+
+#h4-03::before {
+    content: "03";
+}
+
+/* Estilos para todos los párrados claros de la página */
+.parrafo-claro-main {
+    color: #B3B2B7;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    width: 450px;
+}
+
+/* Fin de los estilos para la sección 2 */
+
+/* Estilos para la sección 3 de la página principal */
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 1440px;
+    height: 700px;
+}
+
+.section3 h2 {
+    color: #242e53;
+    font-size: 39.21px;
+    font-weight: 700;
+    line-height: 61.41px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+/* Estilos para el contenedor de los avatar/perfiles */
+
+.profile-article {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.div-profile-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+    width: 420px;
+    height: 300px;
+}
+
+.div-profile-avatar h4 {
+    color: #3f4868;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.avatar {
+    bottom: 40px;
+    position:relative;
+    width: 20%;
+}
+
+.parrafo-avatar {
+    color: #B3B2B7;
+    font-weight: 400;
+    line-height: 25px;
+    text-align:center;
+    width: 350px;
+}
+
+
+.button {
+    background-color: #f3603b;
+    border-radius: 50px;
+    border: none;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: 7w00;
+    color: #ffffff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    width: 134px;
+    height: 44px;
+}
+
+.button:hover {
+    box-shadow: 0px 7px 7px rgb(242, 95, 58, 0.55);
+    cursor: pointer;
+}
+
+/* Fin de los estilos para la sección 3 */
+
+/* Estilos para la sección 4 de la página principal */
+
+.section4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F3613C;
+    width: 1440px;
+    height: 220px;
+    margin-top: 110px;
+    padding-left: 150px;
+    padding-right: 150px;;
+}
+
+.section4 h2 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 47,84px;
+    color: #FFFFFF;
+    width: 500px;
+}
+
+/* Estilos para el botón del contenedor naranja de la sección 4 */
+
+.button-section4 {
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    padding: 15px;
+    width: 134px;
+    height: 44px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #f3603b;
+}
+
+.button-section4:hover {
+    box-shadow: 0px 7px 7px rgba(65, 58, 57, 0.55);
+    cursor: pointer;
+}
+
+/* Fin de los estilos para la sección 4 */
+
+/* Estilos para el pie de página */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 1440px;
+    height: 270px;
+    background-color: #1E1E26;
+}
+
+.div-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-end;
+    height: 110px;
+}
+
+.div-footer nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    line-height: 2em;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+/* Estilos para el formulario del pie de página */
+.div-footer-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+    height: 140px;
+}
+
+#invalid-email {
+    color: red;
+    font-size: 12px;
+    margin-left: 12px;
+    font-style: italic;
+    margin-top: -50px;
+}
+
+#copyright {
+    display: flex;
+    justify-content: flex-end;
+    color: #8C8C94;
+    font-size: 12.5px;
+}
+
+.form-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 275px;
+}
+
+.email-footer {
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    width: 200px;
+    height: 44px;
+    text-align: center;
+    font-size: 13px;
+    color: #A0A0A0;
+    font-weight: 600;
+}
+
+
+.email-footer:hover {
+    border-radius: 50px;
+    border: #F3603B solid 3px;
+}
+
+/* Estilos para el botón del formulario del pide de página */
+.button-go {
+    background-color:#F3603B;
+    border-radius: 50px;
+    border: none;
+    width: 64px;
+    height: 44px;
+    text-align: center;
+    font-size: 13px;
+    color:#FFFFFF;
+    font-weight: 500;
+}
+
+.button-go:hover {
+    box-shadow: 0px 4px 8px rgb(242, 95, 58, 0.55);
+    cursor: pointer;
+}
+
+
+/*Elementos ocultos para dispositivos desktop 1440px*/
+
+@media (min-width:1440px) {
+
+    #hamburguer {
+        display: none;
+    }
+
+    #copyright-mobile {
+        display: none;
+    }
+
+    #carrusel-cards {
+        display: none;
+    }
+
+}
+
+/*Estilos y elementos ocultos para dispositivos mobile 375px*/
+
+@media (max-width:375px) {
+
+    /* Estilos para la cabecera de la página responsive*/
+
+    header {
+        width: 100%;
+        display: flex;
+        height: 10vh;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+
+    #ul-header a {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    /* Fin de estilos para la cabecera */
+
+    /* Estilos para la sección 1 de la página responsive */
+
+    .section1 {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 64vh;
+        padding: 10px 10px 60px 10px;
+        justify-content: space-between;
+    }
+
+
+    #img-section1 {
+        width: 100%;
+        height: 32vh;
+        padding: 0px;
+    }
+
+    .article1-section1 {
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 35px;
+        font-weight: 700;
+        color: #232C51;
+        line-height: 40px;
+        width: 100%;
+        text-align: center;
+        padding: 0px 7px 0px 7px;
+        margin: 0px;
+    }
+
+    .parrafo-oscuro-main {
+        width: 95%;
+        text-align: center;
+        color: #B3B2B7;
+        line-height: 25px;
+        margin: 0;
+        font-size: 14px;
+        padding: 20px 20px;
+    }
+
+    .button375 {
+        display: flex;
+        justify-content: center;      
+    }
+
+    /* Fin de estilos para la sección 1 */
+
+    /* Estilos para la sección 2 de la página responsive */
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 70vh;
+        padding: 0;
+    }
+
+    #article-section2-375 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    h3 {
+        font-size: 30px;
+        line-height: 40px;
+        color: #232851;
+        font-weight: 700;
+        padding: 0px;
+        width: 90%;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 14.4px;
+        text-align: left;
+    }
+
+    h4::before {
+        position: relative;
+        left: -12px;
+        margin-left: 30px;
+    }
+
+    .parrafo-claro-main {
+        width: 100%;
+        text-align: left;
+        font-size: 14px;
+        padding: 0px 15px 0px 15px;
+    }
+
+    /* Fin de estilos para la sección 2 */
+
+    /* Estilos para la sección 3 de la página responsive */
+
+    .section3 {
+        width: 100%;
+        height: 70vh;
+        padding: 50px 0px 25px 0px;
+        justify-content: space-around;
+    }
+
+    .section3 h2 {
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+
+    .div-profile-avatar {
+        width: 100%;
+    }
+
+    .parrafo-avatar {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    #avatar-anisha {
+        display: none;
+    }
+
+    #avatar-richard {
+        display: none;
+    }
+
+    #carrusel-cards{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 10%;
+        color: #f3613c;
+    }
+
+    /* Fin de estilos para la sección 3 */
+
+    /* Estilos para la sección 4 de la página responsive */
+
+    .section4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 36vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section4 h2 {
+        text-align: center;
+        width: 80%;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 50px;
+        padding-bottom: 30px;
+    }
+
+    /* Fin de estilos para la sección 4 */
+
+    /* Estilos para el pie de página responsive */
+
+    footer {
+        height: 52vh;
+        flex-direction: column-reverse;
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    #invalid-email {
+        display: none;
+    }
+
+    #copyright {
+        display: none;
+    }
+
+    .div-footer {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        height: 20vh;
+    }
+
+    #copyright-mobile {
+        display: flex;
+        justify-content: flex-end;
+        color: #8C8C94;
+        font-size: 12px;
+    }
+
+
+    .nav-footer {
+        width: 60%;
+        font-size: 12px;
+        line-height: 2.5em;
+    }
+
+    .div-footer-form {
+        margin: 0;
+        height: auto;   
+    }
+
+    .iconos {
+        font-size: 30px;
+    }   
+    
+    .div-footer nav a {
+        padding: 15px;
+    }
+
+    .div-footer img {
+        width: 50%;
+        
+    }
+
+    /* Fin de estilos para el pie de página */
+
+}
+
+/* ...y finalmente, una sonrisa de oreja a oreja por haberlo logrado */
+
+
+
+
